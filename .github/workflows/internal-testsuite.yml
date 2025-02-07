@@ -100,6 +100,13 @@ jobs:
 
     # Runs a single command using the runners shell
     # Working dir is /home/runner/work/c2rust/c2rust
+    - name: Format
+      run: |
+        export LLVM_CONFIG_PATH=/usr/bin/llvm-config-12
+        cargo fmt --check
+
+    # Runs a single command using the runners shell
+    # Working dir is /home/runner/work/c2rust/c2rust
     - name: Build c2rust
       run: |
         export LLVM_CONFIG_PATH=/usr/bin/llvm-config-12
