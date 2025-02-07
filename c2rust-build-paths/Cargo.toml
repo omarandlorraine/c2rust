@@ -12,4 +12,4 @@ keywords.workspace = true
 categories.workspace = true
 
 [dependencies]
-print_bytes = "1.1"
+print_bytes = "2.0"
