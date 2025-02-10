@@ -147,7 +147,7 @@ dependencies = [
  "lazycell",
  "log",
  "peeking_take_while",
- "prettyplease 0.2.5",
+ "prettyplease",
  "proc-macro2",
  "quote",
  "regex",
@@ -265,7 +265,7 @@ name = "c2rust-ast-printer"
 version = "0.19.0"
 dependencies = [
  "log",
- "prettyplease 0.1.25",
+ "prettyplease",
  "proc-macro2",
  "syn 1.0.109",
 ]
@@ -1129,16 +1129,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "77957b295656769bb8ad2b6a6b09d897d94f05c41b069aede1fcdaa675eaea04"
 dependencies = [
  "zerocopy",
-]
-
-[[package]]
-name = "prettyplease"
-version = "0.1.25"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c8646e95016a7a6c4adea95bafa8a16baab64b583356217f2c85db4a39d9a86"
-dependencies = [
- "proc-macro2",
- "syn 1.0.109",
 ]
 
 [[package]]
