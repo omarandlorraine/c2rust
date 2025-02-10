@@ -242,7 +242,7 @@ name = "c2rust-ast-builder"
 version = "0.19.0"
 dependencies = [
  "proc-macro2",
- "syn 1.0.109",
+ "syn 2.0.75",
 ]
 
 [[package]]
@@ -267,7 +267,7 @@ dependencies = [
  "log",
  "prettyplease 0.1.25",
  "proc-macro2",
- "syn 1.0.109",
+ "syn 2.0.75",
 ]
 
 [[package]]
@@ -284,7 +284,7 @@ version = "0.19.0"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 1.0.109",
+ "syn 2.0.75",
 ]
 
 [[package]]
@@ -364,7 +364,7 @@ dependencies = [
  "smallvec",
  "strum",
  "strum_macros",
- "syn 1.0.109",
+ "syn 2.0.75",
 ]
 
 [[package]]
