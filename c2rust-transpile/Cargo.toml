@@ -20,7 +20,7 @@ colored = "2.0"
 dtoa = "1.0"
 failure = "0.1.5"
 fern = { version = "0.6", features = ["colored"] }
-handlebars = "4.2"
+handlebars = "6.3"
 indexmap = { version = "1.0.1", features = ["serde-1"] }
 itertools = "0.14"
 libc = "0.2"
